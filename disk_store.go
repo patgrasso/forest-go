@@ -179,6 +179,7 @@ func (store *DiskStore) GetReply(community, conversation, reply *fields.Qualifie
 }
 
 func (store *DiskStore) Add(node Node) error {
+	return nil
 }
 
 var _ Store = &DiskStore{}
